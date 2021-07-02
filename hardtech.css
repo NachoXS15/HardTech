@@ -1,0 +1,185 @@
+*{margin: 0 auto; padding: 0 auto; font-family: calibri;}
+
+body{
+	background-image: url(imagenes/setup1.jpg);
+	background-size: 100%;
+	background-attachment: fixed;
+}
+
+/*Encabezado*/
+
+header{
+	width: 1500px;
+	height: 70px;
+	margin-bottom: 30px;
+	display: flex;
+	justify-content: space-around;
+	background-color: rgba(0, 0, 0, 0.8);
+	border-radius: 10px;
+}
+
+header nav{
+	margin-top: 25px;
+}
+
+header nav a{
+	padding: 5px 20px;
+	border-radius: 5px;
+	color: white;
+	text-decoration: none;
+}
+
+header nav a:hover{
+	color: black;
+	background-color: white;
+	border-radius: 2px;
+} 
+
+header img{}
+}
+
+.negro{
+	background-color: black;
+}
+
+/*Banner*/
+
+#banner{
+	width: 1200px;
+	margin: 0 auto;
+	height: 330px;
+	padding: 50px;
+	background-color: rgba(0, 0, 0, 0.8);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	border-radius: 10px;
+}
+
+/*Seccion 1*/
+
+#tituloprod{
+	width: 1250px;
+	height: 340px;
+	margin-top: 30px;
+	background-color: rgba(0, 0, 0, 0.8);
+	color: white;
+	border-radius: 10px;
+}
+
+#tituloprod #pcs{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: row;
+	margin-left: 100px;
+	text-align: center;
+}
+
+#tituloprod h2{
+	text-align: center;
+	padding: 10px 0px;
+}
+
+
+.resize{
+	width: 60%;
+	display: flex;
+	align-items: center;
+}
+
+.resize2{
+	width: 60%;
+}
+
+
+/*Contenido 2*/
+
+#info{
+	width: 1250px;
+	height: 340px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: rgba(0, 0, 0, 0.8);
+	color: white;
+	border-radius: 10px;
+}
+
+#info h2{
+	text-align: center;
+	margin: 30px 0px;
+}
+
+#facheros{
+	display: flex;
+	margin: 0px 10px;
+	margin-right: 300px;
+	text-align: center;
+	color: white;
+}
+
+
+.resize3{
+	width: 38%;
+	margin-left: 80px;
+	text-align: center;
+}
+
+.resize4{
+	width: 283px; 
+	height: 180px;
+}
+
+.text2{
+	margin-left: 80px;
+}
+
+/*PIE*/
+
+footer{
+	width: 100%;
+	height: 230px;
+	color: white;
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	line-height: 300%;
+}
+
+footer a{
+	font-size: 15px;
+	text-decoration: none;
+	color: white;
+}
+
+#iconos{
+	text-align: center;
+}
+
+#iconos a{
+	margin: 5px;
+	padding: 10px;
+	color: black;
+	width: 30px;
+	height: 30px;
+	font-size: 28px;
+	background-color: #fff;
+	border-radius: 50%;
+	text-decoration: none;
+	border: 1px dashed black;
+	box-shadow: 0 0 0 4px white;
+}
+
+#iconos a:hover{
+	color: white;
+	background-color: black;
+}
+
+.copy{
+	font-size: 20px;
+}
