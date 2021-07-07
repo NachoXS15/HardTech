@@ -9,6 +9,7 @@ header{
     width: 1500px;
     height: 70px;
     margin-bottom: 30px;
+    margin: 0 auto;
     margin-top: 5px;
     display: flex;
     justify-content: space-around;
