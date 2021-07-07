@@ -41,6 +41,7 @@ header nav a:hover{
 #seccion1{
     width: 1500px;
     height: 320px;
+    margin: 0 auto;
     padding-top: 120px;
     padding-bottom: 250px;
     display: flex;
