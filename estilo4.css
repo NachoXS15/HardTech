@@ -9,6 +9,7 @@ header{
     width: 1500px;
     height: 70px;
     margin-bottom: 30px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-around;
     background-color: rgba(0, 0, 0, 0.8);
