@@ -83,6 +83,10 @@ header img{}
 	padding: 10px 0px;
 }
 
+#pcs img:hover{
+	width: 65%;
+}
+
 
 .resize{
 	width: 60%;
