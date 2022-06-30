@@ -3,6 +3,7 @@
 body{
 	background-image: url(imagenes/setup1.jpg);
 	background-size: 100%;
+	background-attachment: fixed;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
