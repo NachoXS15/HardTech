@@ -1,0 +1,135 @@
+*{margin: 0;padding: 0;font-family:calibri;
+ box-sizing: border-box; 
+}
+body{
+	background-image: url(imagenes/setup-gamer-4.jpg);
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+header{
+    width: 100%;
+    height: 70px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+
+header img{
+    width: 124px;
+}
+
+
+header nav{
+    margin-top: 25px;
+}
+
+header nav a{
+    padding: 5px 20px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+header nav a:hover{
+    color: black;
+    background-color: white;
+    border-radius: 2px;
+} 
+.negro{
+    background-color: black;
+}
+
+/*Body*/
+
+#seccion1{
+    width: 100%;
+    height: 320px;
+    padding-top: 120px;
+    padding-bottom: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    text-align: center;
+}
+
+#form{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 50px;
+    border-radius: 10px;
+    line-height: 130%;
+}
+
+#form h2{
+    text-align: center;
+    line-height: 150%;
+    text-decoration: underline;
+    padding-bottom: 10px;
+}
+
+#form input{
+    border-radius: 5px;
+    margin-bottom: 5px;
+
+}
+
+#form #enviar{
+    margin-top: 10px;
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+
+
+/*PIE*/
+
+footer{
+    width: 100%;
+    height: 200px;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 300%;
+}
+
+footer h3{
+    font-size: 15px;
+}
+
+#iconos{
+    text-align: center;
+}
+
+#iconos a{
+    margin: 5px;
+    padding: 10px;
+    color: black;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    background-color: #fff;
+    border-radius: 50%;
+    text-decoration: none;
+    border: 1px dashed black;
+    box-shadow: 0 0 0 4px white;
+}
+
+#iconos a:hover{
+    color: white;
+    background-color: black;
+}
+
+.copy{
+    font-size: 20px;
+}

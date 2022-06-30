@@ -1,0 +1,200 @@
+*{margin: 0 auto; padding: 0 auto; font-family: calibri;}
+
+body{
+	background-image: url(imagenes/setup1.jpg);
+	background-size: 100%;
+	background-attachment: fixed;
+	min-height: 100vh;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+/*Encabezado*/
+
+header{
+	width: 100%;
+	height: 70px;
+	margin-bottom: 30px;
+	display: flex;
+	justify-content: space-around;
+	background-color: rgba(0, 0, 0, 0.8);
+	border-radius: 10px;
+}
+
+header img{
+	width: 124px;
+}
+
+header nav{
+	margin-top: 25px;
+}
+
+header nav a{
+	padding: 5px 20px;
+	border-radius: 5px;
+	color: white;
+	text-decoration: none;
+}
+
+header nav a:hover{
+	color: black;
+	background-color: white;
+	border-radius: 2px;
+} 
+
+
+.negro{
+	background-color: black;
+}
+
+/*Banner*/
+
+#banner{
+	width: 80%;
+	max-width: 1300px;
+	margin: 0 auto;
+	height: 330px;
+	padding: 50px;
+	background-color: rgba(0, 0, 0, 0.8);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	border-radius: 10px;
+}
+
+/*Seccion 1*/
+
+#tituloprod{
+	width: 80%;
+	max-width: 1280px;
+	height: 340px;
+	margin-top: 30px;
+	background-color: rgba(0, 0, 0, 0.8);
+	color: white;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#pcs{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	gap: 70px;
+}
+
+#tituloprod .pcs{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+.pcs img{
+	width: 200px;
+}
+
+#tituloprod h2{
+	text-align: center;
+	padding: 10px 0px;
+}
+
+
+#pc1 img{
+	width: 100px;
+}
+#pc2 img{
+	width: 100px;
+}
+#pc3 img{
+	width: 100px;
+}
+
+/*Contenido 2*/
+
+#info{
+	width: 60%;
+	max-width: 1100px;
+	height: 340px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: rgba(0, 0, 0, 0.8);
+	color: white;
+	border-radius: 10px;
+}
+
+#info h2{
+	text-align: center;
+	margin: 30px 0px;
+}
+
+#facheros{
+	width: 100%;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+
+#mark, #xs{
+	width: 100%;
+}
+
+#facheros img{
+	width: 200px;
+}
+
+
+
+/*PIE*/
+
+footer{
+	width: 100%;
+	height: 230px;
+	color: white;
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	line-height: 300%;
+}
+
+footer a{
+	font-size: 15px;
+	text-decoration: none;
+	color: white;
+}
+
+#iconos{
+	text-align: center;
+}
+
+#iconos a{
+	margin: 5px;
+	padding: 10px;
+	color: black;
+	width: 30px;
+	height: 30px;
+	font-size: 28px;
+	background-color: #fff;
+	border-radius: 50%;
+	text-decoration: none;
+	border: 1px dashed black;
+	box-shadow: 0 0 0 4px white;
+}
+
+#iconos a:hover{
+	color: white;
+	background-color: black;
+}
+
+.copy{
+	font-size: 20px;
+}

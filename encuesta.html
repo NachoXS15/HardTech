@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<head>
+	<meta charset="utf-8">
+	<title>HardTech - ENCUESTA</title>
+	<link rel="stylesheet" type="text/css" href="encuesta.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+</head>
+<body>
+		<header>
+			<img src="imagenes/hard-tech.png">
+			<nav>
+				<a href="index.html" class="negro">Inicio</a>
+				<a href="#" class="negro">Encuesta</a>
+				<a href="pc_todes.html" class="negro">Productos</a>
+				<a href="login.html" class="negro">Login</a>
+				<a href="registro.html" class="negro">Registrarse</a>
+			</nav>
+		</header>
+		<div id="seccion1">
+			<div id="form">
+				<h2>Encuesta al Público</h2>
+				<form action="#" method="post">
+					<label for="client" id="client" />¿Eres cliente frecuente de nosotros?</label> <br>
+					<input type="radio" name="cliente" id="respuesta1" value="Si" checked="checked">Si
+					<input type="radio" name="cliente" id="respuesta1" value="No">No <br>
+				<br>
+					<label for="prod" id="prod">¿Cuantos productos has adquirido?</label> <br>
+					<input type="radio" name="prod" id="respuesta2" for="prod" checked="checked">Muchos
+					<input type="radio" name="prod" id="respuesta2" for="prod" >Pocos<br>
+					<input type="radio" name="prod" id="respuesta2" for="prod" >Otro<br>
+					<div id="multiple">
+						<label for="prod" id="respuesta2"/>Elija cuantas: </label>
+							<select>
+									<option value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="4">5</option>
+									<option value="Otro">Otro</option>
+							</select>
+					</div>	
+				<br>
+					<label for="satis" id="satis">¿Nuestros productos fueron satisfactorios?</label> <br>
+					<input type="radio" name="satis" id="respuesta3" for="satis" checked="checked">Si
+					<input type="radio" name="satis" id="respuesta3" for="satis">No <br>
+				<br>
+					<label for="incon" id="incon">¿Tuviste algún inconveniente?</label> <br>
+					<input type="radio" name="incon" id="respuesta4" for="incon" checked="checked">Si
+					<input type="radio" name="incon" id="respuesta4" for="incon">No <br>
+				<br>
+					<label for="comment" id="comment">Escribe algún comentario: </label> <br>
+					<textarea name="comment" id="comment" placeholder="Comentarios..." cols="30" rows="5"></textarea>
+				<br>
+					<input type="submit" for="enviar" value="Enviar">
+				</form>
+			</div>
+		</div>
+		<footer>
+			<a href="#">CPU | RAM | GPU | FUENTES | SSD | HDD | CASES | NOTEBOOKS</a>
+			<div id="iconos">
+				<a href="#" class="fab fa-facebook-f"></a>
+				<a href="#" class="fab fa-twitter"></a>
+				<a href="#" class="fab fa-instagram"></a>
+				<a href="#" class="fas fa-envelope-square"></a>
+				<a href="https://www.google.com.ar/maps/place/SOLUTEC/@-29.420711,-66.8630556,18z/data=!4m5!3m4!1s0x9427db32a4877ddd:0x6e8737e1b6580360!8m2!3d-29.4207234!4d-66.863866" class="fas fa-map-marker-alt"></a>
+			</div>
+			<h3 class="copy">Copyright © 2021 HARDTECH | All rights reserved</h3>
+		</footer>
+</body>
+</html>
