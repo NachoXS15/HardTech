@@ -1,0 +1,161 @@
+*{margin: 0 auto; padding: 0 auto; font-family: calibri;}
+
+body{
+	background-image: url(../imagenes/setup1.jpg);
+	background-size: 100%;
+	background-attachment: fixed;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-height: 100vh;
+}
+
+
+/*Encabezado*/
+
+header{
+	width: 100%;
+	height: 70px;
+	margin-bottom: 30px;
+	display: flex;
+	justify-content: space-around;
+	background-color: rgba(0, 0, 0, 0.8);
+	border-radius: 10px;
+}
+
+header img{
+	width: 124px;
+}
+
+header nav{
+	margin-top: 25px;
+}
+
+header nav a{
+	padding: 5px 20px;
+	border-radius: 5px;
+	color: white;
+	text-decoration: none;
+}
+
+header nav a:hover{
+	color: black;
+	background-color: white;
+	border-radius: 2px;
+} 
+
+.negro{
+	background-color: black;
+}
+
+
+/*BODY*/
+
+#survey{
+	width: 100%;
+	height: 320px;
+	padding-top: 100px;
+	padding-bottom: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 100px;
+	text-align: center;
+}
+
+#form{
+	background-color: rgba(0, 0, 0, 0.8);
+	color: white;
+	padding: 50px;
+	border-radius: 10px;
+	line-height: 130%;
+}
+
+#form h2{
+	text-align: center;
+	line-height: 150%;
+	text-decoration: underline;
+}
+
+#form input [type="radio"]{
+	padding-top: 20px;
+}
+
+#form #multiple{
+	line-height: 160%;
+}
+
+
+#form textarea{
+	margin-top: 5px;
+	border-radius: 5px;
+}
+
+#form [type="submit"]{
+	margin-top: 10px;
+	padding: 5px 20px;
+	border-radius: 5px;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	text-decoration: none;
+}
+#form [type="submit"]:hover{
+	color: black;
+	background-color: white;
+	border-radius: 5px;
+}
+
+#form select{
+	border-radius: 5px;
+	margin-left: 5px;
+}
+
+
+/*PIE*/
+
+footer{
+	width: 100%;
+	height: 230px;
+	color: white;
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	line-height: 300%;
+}
+
+footer a{
+	font-size: 15px;
+	text-decoration: none;
+	color: white;
+}
+
+#iconos{
+	text-align: center;
+}
+
+#iconos a{
+	margin: 5px;
+	padding: 10px;
+	color: black;
+	width: 30px;
+	height: 30px;
+	font-size: 28px;
+	background-color: #fff;
+	border-radius: 50%;
+	text-decoration: none;
+	border: 1px dashed black;
+	box-shadow: 0 0 0 4px white;
+}
+
+#iconos a:hover{
+	color: white;
+	background-color: black;
+}
+
+.copy{
+	font-size: 20px;
+}
+
