@@ -145,6 +145,10 @@ header nav a:hover{
 	width: 100%;
 }
 
+#mark, #xs img{
+	height: 130px;
+}
+
 #facheros img{
 	width: 200px;
 }
