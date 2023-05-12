@@ -20,7 +20,6 @@ header{
 	display: flex;
 	justify-content: space-around;
 	background-color: rgba(0, 0, 0, 0.8);
-	border-radius: 10px;
 }
 
 header img{
@@ -90,6 +89,7 @@ header nav a:hover{
 #form textarea{
 	margin-top: 5px;
 	border-radius: 5px;
+	resize: none;
 }
 
 #form [type="submit"]{
