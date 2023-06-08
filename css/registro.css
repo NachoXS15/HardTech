@@ -125,6 +125,11 @@ header nav a:hover{
     border-radius: 2px;
 }
 
+.boton5{
+    padding: 5px 10px;
+    margin: 0 5px;
+}
+
 /*PIE*/
 
 footer{
