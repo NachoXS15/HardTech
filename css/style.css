@@ -2,13 +2,18 @@
 
 body{
 	background-image: url(../imagenes/setup1.jpg);
-	background-size: 100%;
+	background-size: cover;
 	background-attachment: fixed;
+	background-position: center;
 	min-height: 100vh;
 	display: flex;
 	justify-content: space-between;
 	flex-direction: column;
 }
+
+
+
+
 
 /*Encabezado*/
 
@@ -51,7 +56,7 @@ header nav a:hover{
 
 #banner{
 	width: 80%;
-	max-width: 1300px;
+	height: 50vh;
 	margin: 0 auto;
 	height: 330px;
 	padding: 50px;
@@ -68,7 +73,7 @@ header nav a:hover{
 
 #tituloprod{
 	width: 80%;
-	max-width: 1280px;
+	height: 1280px;
 	height: 340px;
 	margin-top: 30px;
 	background-color: rgba(0, 0, 0, 0.8);
@@ -119,7 +124,6 @@ header nav a:hover{
 
 #info{
 	width: 60%;
-	max-width: 1100px;
 	height: 340px;
 	margin: 0 auto;
 	margin-top: 20px;
@@ -200,4 +204,112 @@ footer a{
 
 .copy{
 	font-size: 20px;
+}
+
+
+
+@media (max-width: 1024px){
+	#pcs{
+		width: 80%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 30px;
+	}
+}
+
+@media (max-width: 880px){
+	#pcs{
+		width: 70%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 10px;
+	}
+}
+
+@media (max-width: 768px){
+	header nav a {
+		display: none;
+	}
+
+	#banner{
+		width: 70%;
+		min-height: 40vh;
+		text-align: center;
+	}
+
+	#tituloprod{
+		width: 80%;
+		min-height: 105vh;
+	}
+
+	#pcs{
+		min-height: 70vh;
+		display: flex;
+		flex-direction: column;
+		gap: 5px
+	}
+
+	#info{
+		width: 75%;
+	}
+
+	#info{
+		min-height: 50vh;
+	}
+
+	#info #facheros{
+		display: flex;
+		flex-direction: column;
+		gap: 80px;
+	}
+
+	#iconos{
+		width: 80%;
+	}
+}
+
+
+
+@media (max-width: 468px){
+	header nav a {
+		display: none;
+	}
+	#banner{
+		width: 60%;
+		min-height: 40vh;
+		text-align: center;
+	}
+
+	#tituloprod{
+		width: 85%;
+		min-height: 105vh;
+	}
+
+	#pcs{
+		min-height: 70vh;
+		display: flex;
+		flex-direction: column;
+		gap: 5px;
+		font-size: 20px;
+	}
+
+	#info{
+		min-height: 55vh;
+	}
+
+	#info #facheros{
+		display: flex;
+		flex-direction: column;
+		gap: 80px;
+	}
+
+	#iconos{
+		width: 80%;
+	}
+
+	.copy{
+		font-size: 15px;
+	}
 }
