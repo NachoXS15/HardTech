@@ -230,7 +230,6 @@ footer a{
 		display: none;
 	}
 	
-	
 	header nav a {
 		display: none;
 	}
@@ -243,7 +242,7 @@ footer a{
 
 	#tituloprod{
 		width: 80%;
-		min-height: 130vh;
+		min-height: 140vh;
 	}
 
 	#pcs{
@@ -286,7 +285,7 @@ footer a{
 
 	#tituloprod{
 		width: 85%;
-		min-height: 105vh;
+		height: auto;
 	}
 
 	#pcs{
@@ -298,7 +297,7 @@ footer a{
 	}
 
 	#info{
-		min-height: 55vh;
+		min-height: 80vh;
 	}
 
 	#info #facheros{
